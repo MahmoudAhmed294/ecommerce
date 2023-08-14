@@ -1,11 +1,11 @@
 {
-  "name": "ui",
+  "name": "shared",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"**/*.ts*\"",
+    "lint": "eslint src --fix",
     "generate:component": "turbo gen react-component"
   },
   "dependencies": {
@@ -16,10 +16,14 @@
     "@reduxjs/toolkit": "^1.9.5",
     "formik": "^2.4.3",
     "js-cookie": "^3.0.5",
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-redux": "^8.1.2",
     "yup": "^1.2.0"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",

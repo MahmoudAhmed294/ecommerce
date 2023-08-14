@@ -1,7 +1,5 @@
 import React from 'react';
-import { Button } from 'ui';
-import 'ui/styles.css';
 
-const Page = () => <Button />;
+const Page = () => <h1>Admin</h1>;
 
 export default Page;

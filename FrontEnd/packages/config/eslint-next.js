@@ -48,8 +48,11 @@ module.exports = {
       extends: ['plugin:testing-library/react', 'plugin:jest/recommended'],
       rules: {
         'import/no-extraneous-dependencies': [
-          'off',
-          { devDependencies: ['**/?(*.)+(spec|test).[jt]s?(x)'] },
+          'warn',
+          {
+            devDependencies: false,
+            dependencies:true
+          },
         ],
       },
     },

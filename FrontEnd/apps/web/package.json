@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 4001",
+    "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
     "test": "jest --coverage",
@@ -11,11 +11,8 @@
   },
   "dependencies": {
     "@paypal/react-paypal-js": "^8.1.1",
-    "next": "13.4.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
-    "ui": "*"
+    "shared": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.0",

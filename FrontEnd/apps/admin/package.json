@@ -11,10 +11,7 @@
   },
   "dependencies": {
     "@mui/x-data-grid": "^6.11.1",
-    "next": "13.4.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ui": "*"
+    "shared": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.0",
