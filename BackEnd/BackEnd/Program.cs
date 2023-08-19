@@ -113,6 +113,7 @@ namespace BackEnd
 
             app.UseCors(policyName: "AllowAll");
 
+
             app.Run();
         }
     }
