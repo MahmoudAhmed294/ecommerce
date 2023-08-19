@@ -1,0 +1,10 @@
+﻿global using BackEnd.Constants;
+global using BackEnd.Contexts;
+global using BackEnd.Models;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System.Security.Claims;
+global using System.Text;
